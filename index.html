@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess.com</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="loadr"></div>
+    <header id="header">
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="header-l">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <img src="img/1'.JPG" alt="1'" height="46" width="144" />
+        </div>
+        <div class="header-bt">
+          <a
+            href="https://www.chess.com/register?returnUrl=https://www.chess.com/"
+            ><button>Sign Up</button></a
+          >
+          <a
+            href="https://www.chess.com/login_and_go?returnUrl=https://www.chess.com/"
+            ><button style="background-color: #81b64c; color: whitesmoke">
+              Log In
+            </button></a
+          >
+        </div>
+      </div>
+      <div>
+        <aside class="sidebar fullbar">
+          <a href="#" class="hover-element2" data-target="elem1">
+            <img src="img/2.JPG" alt="2" />
+            <p class="sidebar-text">Play</p></a
+          >
+          <a href="#" class="hover-element2" data-target="elem2"
+            ><img src="img/3.JPG" alt="3" />
+            <p class="sidebar-text">Puzzles</p></a
+          >
+          <a href="#" class="hover-element2" data-target="elem3"
+            ><img src="img/4.JPG" alt="4" />
+            <p class="sidebar-text">Learn</p></a
+          >
+          <a href="#" class="hover-element2" data-target="elem4"
+            ><img src="img/5.JPG" alt="5" />
+            <p class="sidebar-text">Watch</p></a
+          >
+          <a href="#" class="hover-element2" data-target="elem5"
+            ><img src="img/6.JPG" alt="6" />
+            <p class="sidebar-text">News</p></a
+          >
+          <a href="#" class="hover-element2" data-target="elem6"
+            ><img src="img/7.JPG" alt="7" />
+            <p class="sidebar-text">Social</p></a
+          >
+          <a href="#"
+            ><img src="img/8.JPG" alt="8" />
+            <p class="sidebar-text">More</p></a
+          >
+          <input type="text" placeholder="Search" class="search" />
+          <a
+            href="https://www.chess.com/register?returnUrl=https://www.chess.com/play"
+            ><button
+              class="aside-bt"
+              href="https://www.chess.com/register?returnUrl=https://www.chess.com/play"
+            >
+              Sign Up
+            </button></a
+          >
+          <a
+            href="https://www.chess.com/login_and_go?returnUrl=https://www.chess.com/play"
+          >
+            <button
+              class="aside-bt"
+              style="background-color: #81b64c; color: whitesmoke"
+            >
+              Log In
+            </button>
+          </a>
+
+          <div class="img-bt">
+            <a href="#" id="img-bt"
+              ><img src="img/9.JPG" alt="9" width="87%" height="auto"
+            /></a>
+            <a href="#" id="img-bt"
+              ><img src="img/10.JPG" alt="10" width="87%"
+            /></a>
+          </div>
+        </aside>
+        <div>
+          <div class="side-sidebar" id="elem1" style="width: 100%">
+            <a href="#"
+              ><img src="img/s1.JPG" alt="s1" />
+              <p class="sidebar-text">Play</p></a
+            >
+            <a href="#"
+              ><img src="img/s2.JPG" alt="s2" />
+              <p class="sidebar-text">Play Bots</p></a
+            >
+            <a href="#"
+              ><img src="img/s3.JPG" alt="s3" />
+              <p class="sidebar-text">Tournaments</p></a
+            >
+            <a href="#"
+              ><img src="img/s4.JPG" alt="s4" />
+              <p class="sidebar-text">4 Players & Variants</p></a
+            >
+            <a href="#"
+              ><img src="img/s5.JPG" alt="s5" />
+              <p class="sidebar-text">Leadership</p></a
+            >
+          </div>
+          <div class="side-sidebar" id="elem2" style="width: 100%">
+            <a href="#"
+              ><img src="img/s6.JPG" alt="s6" />
+              <p class="sidebar-text">Puzzles</p></a
+            >
+            <a href="#"
+              ><img src="img/s7.JPG" alt="s7" />
+              <p class="sidebar-text">Puzzle Rush</p></a
+            >
+            <a href="#"
+              ><img src="img/s8.JPG" alt="s8" />
+              <p class="sidebar-text">Puzzle Battle</p></a
+            >
+            <a href="#"
+              ><img src="img/s9.JPG" alt="s9" />
+              <p class="sidebar-text">Daily Puzzle</p></a
+            >
+            <a href="#"
+              ><img src="img/s10.JPG" alt="s10" />
+              <p class="sidebar-text">Custom Puzzle</p></a
+            >
+          </div>
+          <div class="side-sidebar" id="elem3" style="width: 100%">
+            <a href="#"
+              ><img src="img/s11.JPG" alt="s11" />
+              <p class="sidebar-text">Lessons</p></a
+            >
+            <a href="#"
+              ><img src="img/s12.JPG" alt="s12" />
+              <p class="sidebar-text">Openings</p></a
+            >
+            <a href="#"
+              ><img src="img/s13.JPG" alt="s13" />
+              <p class="sidebar-text">Lesson Library</p></a
+            >
+            <a href="#"
+              ><img src="img/s14.JPG" alt="s14" />
+              <p class="sidebar-text">Analysis</p></a
+            >
+            <a href="#"
+              ><img src="img/s15.JPG" alt="s15" />
+              <p class="sidebar-text">Classroom</p></a
+            >
+          </div>
+          <div class="side-sidebar" id="elem4" style="width: 100%">
+            <a href="#"
+              ><img src="img/s16.JPG" alt="s16" />
+              <p class="sidebar-text">Events</p></a
+            >
+            <a href="#"
+              ><img src="img/s17.JPG" alt="s17" />
+              <p class="sidebar-text">ChessTV</p></a
+            >
+            <a href="#"
+              ><img src="img/s18.JPG" alt="s18" />
+              <p class="sidebar-text">Streamers</p></a
+            >
+            <a href="#"
+              ><img src="img/s19.JPG" alt="s19" />
+              <p class="sidebar-text">Playing Now</p></a
+            >
+          </div>
+          <div class="side-sidebar" id="elem5" style="width: 100%">
+            <a href="#"
+              ><img src="img/s20.JPG" alt="s20" />
+              <p class="sidebar-text">Chess Today</p></a
+            >
+            <a href="#"
+              ><img src="img/s21.JPG" alt="s21" />
+              <p class="sidebar-text">News</p></a
+            >
+            <a href="#"
+              ><img src="img/s22.JPG" alt="s22" />
+              <p class="sidebar-text">Articles</p></a
+            >
+            <a href="#"
+              ><img src="img/s23.JPG" alt="s23" />
+              <p class="sidebar-text">Top Players</p></a
+            >
+          </div>
+          <div class="side-sidebar" id="elem6" style="width: 100%">
+            <a href="#"
+              ><img src="img/s24.JPG" alt="s24" />
+              <p class="sidebar-text">Clubs</p></a
+            >
+            <a href="#"
+              ><img src="img/s25.JPG" alt="s25" />
+              <p class="sidebar-text">Forums</p></a
+            >
+            <a href="#"
+              ><img src="img/s26.JPG" alt="s26" />
+              <p class="sidebar-text">Members</p></a
+            >
+            <a href="#"
+              ><img src="img/s27.JPG" alt="s27" />
+              <p class="sidebar-text">Blogs</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div class="helper"></div>
+        <aside class="sidebar side-bar">
+          <h1>
+            <img
+              src="img/1.JPG"
+              alt="1"
+              class="ishow"
+              width="100%"
+              height="auto"
+            />
+            <img src="img/r1.JPG" alt="r1" class="ihide" />
+          </h1>
+          <a
+            href="https://www.chess.com/play"
+            class="hover-element"
+            data-target="ele1"
+          >
+            <img src="img/2.JPG" alt="2" />
+            <p class="sidebar-text">Play</p></a
+          >
+          <a
+            href="https://www.chess.com/puzzles/rated"
+            class="hover-element"
+            data-target="ele2"
+            ><img src="img/3.JPG" alt="3" />
+            <p class="sidebar-text">Puzzles</p></a
+          >
+          <a
+            href="https://www.chess.com/learn"
+            class="hover-element"
+            data-target="ele3"
+            ><img src="img/4.JPG" alt="4" />
+            <p class="sidebar-text">Learn</p></a
+          >
+          <a
+            href="https://www.chess.com/watch"
+            class="hover-element"
+            data-target="ele4"
+            ><img src="img/5.JPG" alt="5" />
+            <p class="sidebar-text">Watch</p></a
+          >
+          <a
+            href="https://www.chess.com/today"
+            class="hover-element"
+            data-target="ele5"
+            ><img src="img/6.JPG" alt="6" />
+            <p class="sidebar-text">News</p></a
+          >
+          <a
+            href="https://www.chess.com/social"
+            class="hover-element"
+            data-target="ele6"
+            ><img src="img/7.JPG" alt="7" />
+            <p class="sidebar-text">Social</p></a
+          >
+          <a href="#" class="hover-element" data-target="ele7"
+            ><img src="img/8.JPG" alt="8" />
+            <p class="sidebar-text">More</p></a
+          >
+          <input type="text" placeholder="Search" class="search" />
+          <a href="#"><img src="img/r2.JPG" alt="r2" class="ihide" /></a>
+          <a
+            href="https://www.chess.com/register?returnUrl=https://www.chess.com/play"
+            ><button
+              class="aside-bt ishow"
+              href="https://www.chess.com/register?returnUrl=https://www.chess.com/play"
+            >
+              Sign Up
+            </button></a
+          >
+          <a
+            href="https://www.chess.com/login_and_go?returnUrl=https://www.chess.com/play"
+          >
+            <button
+              class="aside-bt ishow"
+              style="background-color: #81b64c; color: whitesmoke"
+            >
+              Log In
+            </button>
+          </a>
+          <a
+            href="https://www.chess.com/register?returnUrl=https://www.chess.com/"
+            ><img src="img/r3.JPG" alt="r3" class="ihide"
+          /></a>
+          <a
+            href="https://www.chess.com/login_and_go?returnUrl=https://www.chess.com/"
+            ><img src="img/r4.JPG" alt="r4" class="ihide"
+          /></a>
+
+          <div class="img-bt ishow">
+            <a href="#" id="img-bt"
+              ><img src="img/9.JPG" alt="9" width="87%" height="auto"
+            /></a>
+            <a href="#" id="img-bt"
+              ><img src="img/10.JPG" alt="10" width="87%"
+            /></a>
+          </div>
+          <a href="#"><img src="img/r5.JPG" alt="r5" class="ihide" /></a>
+          <a href="#"><img src="img/r6.JPG" alt="r6" class="ihide" /></a>
+        </aside>
+        <div>
+          <div class="side-sidebar side-side-bar" id="ele1">
+            <a href="#"
+              ><img src="img/s1.JPG" alt="s1" />
+              <p class="sidebar-text">Play</p></a
+            >
+            <a href="#"
+              ><img src="img/s2.JPG" alt="s2" />
+              <p class="sidebar-text">Play Bots</p></a
+            >
+            <a href="#"
+              ><img src="img/s3.JPG" alt="s3" />
+              <p class="sidebar-text">Tournaments</p></a
+            >
+            <a href="#"
+              ><img src="img/s4.JPG" alt="s4" />
+              <p class="sidebar-text">4 Players & Variants</p></a
+            >
+            <a href="#"
+              ><img src="img/s5.JPG" alt="s5" />
+              <p class="sidebar-text">Leadership</p></a
+            >
+          </div>
+          <div class="side-sidebar side-side-bar" id="ele2">
+            <a href="#"
+              ><img src="img/s6.JPG" alt="s6" />
+              <p class="sidebar-text">Puzzles</p></a
+            >
+            <a href="#"
+              ><img src="img/s7.JPG" alt="s7" />
+              <p class="sidebar-text">Puzzle Rush</p></a
+            >
+            <a href="#"
+              ><img src="img/s8.JPG" alt="s8" />
+              <p class="sidebar-text">Puzzle Battle</p></a
+            >
+            <a href="#"
+              ><img src="img/s9.JPG" alt="s9" />
+              <p class="sidebar-text">Daily Puzzle</p></a
+            >
+            <a href="#"
+              ><img src="img/s10.JPG" alt="s10" />
+              <p class="sidebar-text">Custom Puzzle</p></a
+            >
+          </div>
+          <div class="side-sidebar side-side-bar" id="ele3">
+            <a href="#"
+              ><img src="img/s11.JPG" alt="s11" />
+              <p class="sidebar-text">Lessons</p></a
+            >
+            <a href="#"
+              ><img src="img/s12.JPG" alt="s12" />
+              <p class="sidebar-text">Openings</p></a
+            >
+            <a href="#"
+              ><img src="img/s13.JPG" alt="s13" />
+              <p class="sidebar-text">Lesson Library</p></a
+            >
+            <a href="#"
+              ><img src="img/s14.JPG" alt="s14" />
+              <p class="sidebar-text">Analysis</p></a
+            >
+            <a href="#"
+              ><img src="img/s15.JPG" alt="s15" />
+              <p class="sidebar-text">Classroom</p></a
+            >
+          </div>
+          <div class="side-sidebar side-side-bar" id="ele4">
+            <a href="#"
+              ><img src="img/s16.JPG" alt="s16" />
+              <p class="sidebar-text">Events</p></a
+            >
+            <a href="#"
+              ><img src="img/s17.JPG" alt="s17" />
+              <p class="sidebar-text">ChessTV</p></a
+            >
+            <a href="#"
+              ><img src="img/s18.JPG" alt="s18" />
+              <p class="sidebar-text">Streamers</p></a
+            >
+            <a href="#"
+              ><img src="img/s19.JPG" alt="s19" />
+              <p class="sidebar-text">Playing Now</p></a
+            >
+          </div>
+          <div class="side-sidebar side-side-bar" id="ele5">
+            <a href="#"
+              ><img src="img/s20.JPG" alt="s20" />
+              <p class="sidebar-text">Chess Today</p></a
+            >
+            <a href="#"
+              ><img src="img/s21.JPG" alt="s21" />
+              <p class="sidebar-text">News</p></a
+            >
+            <a href="#"
+              ><img src="img/s22.JPG" alt="s22" />
+              <p class="sidebar-text">Articles</p></a
+            >
+            <a href="#"
+              ><img src="img/s23.JPG" alt="s23" />
+              <p class="sidebar-text">Top Players</p></a
+            >
+          </div>
+          <div class="side-sidebar side-side-bar" id="ele6">
+            <a href="#"
+              ><img src="img/s24.JPG" alt="s24" />
+              <p class="sidebar-text">Clubs</p></a
+            >
+            <a href="#"
+              ><img src="img/s25.JPG" alt="s25" />
+              <p class="sidebar-text">Forums</p></a
+            >
+            <a href="#"
+              ><img src="img/s26.JPG" alt="s26" />
+              <p class="sidebar-text">Members</p></a
+            >
+            <a href="#"
+              ><img src="img/s27.JPG" alt="s27" />
+              <p class="sidebar-text">Blogs</p></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="main-c">
+        <div class="c1">
+          <a href="https://www.chess.com/play/online"
+            ><img class="chessb" src="img/chessb.png" alt="chessb"
+          /></a>
+          <div class="index1">
+            <h1>Play Chess Online on the #1 Site!</h1>
+            <span class="index1-s1">
+              <p class="index1-p1">
+                14,588,122 <span class="index1-p1-1">Games Today</span>
+              </p>
+              <p class="index1-p2">
+                170,741 <span class="index1-p1-1">Playing Now</span>
+              </p>
+            </span>
+            <div class="index1-bt" style="width: 80%">
+              <button class="in-bt">
+                <img src="img/12.JPG" alt="12" />
+                <div class="in-in-bt">
+                  <a href="https://www.chess.com/play/online"
+                    ><p class="in-bt-p1">Play Online</p></a
+                  >
+                  <p class="in-bt-p2">Play with someone at your level</p>
+                </div>
+              </button>
+              <button
+                class="in-bt"
+                style="
+                  background-color: #454341;
+                  box-shadow: 0px 0.4rem 0 0 #3e3c3a;
+                "
+              >
+                <img src="img/13.JPG" alt="13" />
+                <div class="in-in-bt">
+                  <a href="https://www.chess.com/play/computer"
+                    ><p class="in-bt-p1">Play Computer</p></a
+                  >
+                  <p class="in-bt-p2">Play vs customizable training bots</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="c2">
+          <div class="c2-txt">
+            <h2 style="color: white">Solve Chess Puzzles</h2>
+            <div class="c2-bt-c">
+              <a href="https://www.chess.com/puzzles/rated"
+                ><button class="c2-txt-bt"><p>Solve Puzzles</p></button></a
+              >
+            </div>
+            <div class="hikaru">
+              <img
+                src="img/hikaru.JPG"
+                alt="hikaru"
+                height="155"
+                width="154"
+                class="hikaru-img"
+              />
+              <div class="hikaru-sidetxt">
+                <q
+                  >Puzzles are the best way to improve pattern recognition, and
+                  no site does it better.</q
+                ><br />
+                <span>
+                  <img src="img/gm.JPG" alt="gm" height="25" width="34" />
+                  <p>Hikaru Nakamura</p>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="https://www.chess.com/puzzles/rated"
+              ><img
+                src="img/chessb2.JPG"
+                alt="chessb2"
+                height="417"
+                width="399"
+                class="chessb2"
+            /></a>
+          </div>
+        </div>
+        <div class="c2 c2pseudo" style="margin-top: 2rem">
+          <div style="margin-right: 4rem">
+            <a href="https://www.chess.com/lessons"
+              ><img
+                src="img/chessb3.JPG"
+                alt="chessb3"
+                height="417"
+                width="399"
+                class="chessb2"
+            /></a>
+          </div>
+          <div class="c2-txt">
+            <h2 style="color: white">Take Chess Lessons</h2>
+            <div class="c2-bt-c">
+              <a href="https://www.chess.com/lessons"
+                ><button class="c2-txt-bt"><p>Start Lessons</p></button></a
+              >
+            </div>
+            <div class="hikaru">
+              <img
+                src="img/hikaru2.JPG"
+                alt="hikaru2"
+                height="155"
+                width="154"
+                class="hikaru-img"
+              />
+              <div class="hikaru-sidetxt">
+                <q
+                  >Chess.com lessons make it easy to learn to play, then
+                  challenge you to continue growing.</q
+                ><br />
+                <span>
+                  <img src="img/im.JPG" alt="im" height="25" width="34" />
+                  <p>Anna Rudolf</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c3">
+          <h2>
+            <a href="https://www.chess.com/today"
+              >Follow what's happening in Chess Today.</a
+            >
+          </h2>
+          <div class="c3-imghub">
+            <a
+              href="https://www.chess.com/news/view/budapest-2024-fide-chess-olympiad-round-8"
+              ><img src="img/I1.JPG" alt="I1"
+            /></a>
+            <a
+              href="https://www.chess.com/news/view/carlsen-accepts-goat-award-urges-fide-to-reject-proposal-on-russia-belarus"
+              ><img src="img/I2.JPG" alt="I2"
+            /></a>
+            <a
+              href="https://www.chess.com/article/view/coach-of-the-month-chris-white"
+              ><img src="img/I3.JPG" alt="I3"
+            /></a>
+            <a href="https://www.chess.com/video/player/rare-fourth-moves"
+              ><img src="img/I4.JPG" alt="I4"
+            /></a>
+          </div>
+          <div class="c3-bt">
+            <a href="https://www.chess.com/today"
+              ><button class="c2-txt-bt">Chess Today</button></a
+            >
+          </div>
+        </div>
+        <footer>
+          <div class="f1">
+            <a href="https://chess.com/support" class="f1-a" target="_blank">
+              Support
+            </a>
+            <a href="https://www.chess.com/terms" class="f1-a" target="_blank">
+              Chess Terms
+            </a>
+            <a href="https://www.chess.com/about" class="f1-a" target="_blank">
+              About
+            </a>
+            <a
+              href="https://www.chess.com/students"
+              class="f1-a"
+              target="_blank"
+            >
+              Students
+            </a>
+            <a href="https://www.chess.com/jobs" class="f1-a" target="_blank">
+              Jobs
+            </a>
+            <a
+              href="https://www.chess.com/club/chess-com-developer-community"
+              class="f1-a"
+              target="_blank"
+            >
+              Developers
+            </a>
+            <a
+              href="https://www.chess.com/legal/user-agreement"
+              class="f1-a"
+              target="_blank"
+            >
+              User Agreement
+            </a>
+            <a
+              href="https://www.chess.com/legal/privacy"
+              class="f1-a"
+              target="_blank"
+            >
+              Privacy Policy
+            </a>
+
+            <a href="https://go.chess.com/opt-out" class="f1-a" target="_blank">
+              Privacy Settings
+            </a>
+            <a
+              href="https://www.chess.com/fair-play"
+              class="f1-a"
+              target="_blank"
+            >
+              Fair Play
+            </a>
+            <a
+              href="https://www.chess.com/partners"
+              class="f1-a"
+              target="_blank"
+            >
+              Partners
+            </a>
+            <a
+              href="https://www.chess.com/legal/compliance"
+              class="f1-a"
+              target="_blank"
+            >
+              Compliance
+            </a>
+            <a href="https://www.chess.com/"> Chess.com © 2024</a>
+          </div>
+          <div class="img-a">
+            <a href="https://www.chess.com/play/apps/ios"
+              ><img src="img/f1.JPG" alt="f1" />
+            </a>
+            <a href="https://www.chess.com/play/apps/android"
+              ><img src="img/f2.JPG" alt="f2" />
+            </a>
+            <a href="https://www.tiktok.com/@chess"
+              ><img src="img/f3.JPG" alt="f3" />
+            </a>
+            <a href="https://twitter.com/chesscom"
+              ><img src="img/f4.JPG" alt="f4" />
+            </a>
+            <a href="https://www.youtube.com/user/wwwChesscom"
+              ><img src="img/f5.JPG" alt="f5" />
+            </a>
+            <a href="https://www.twitch.tv/chess"
+              ><img src="img/f6.JPG" alt="f6" />
+            </a>
+            <a href="https://www.instagram.com/wwwchesscom"
+              ><img src="img/f7.JPG" alt="f7" />
+            </a>
+            <a href="https://discord.gg/3VbUQME"
+              ><img src="img/f8.JPG" alt="f8" />
+            </a>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
