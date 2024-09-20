@@ -18,20 +18,16 @@ window.addEventListener("load", function () {
 // Siderbar Hoverer
 document.addEventListener("DOMContentLoaded", () => {
   const hoverElements = document.querySelectorAll(".hover-element");
-  let index = 10;
   hoverElements.forEach((element) => {
     const targetId = element.getAttribute("data-target");
     const targetElement = document.getElementById(targetId);
 
     var showElement = () => {
-      targetElement.style.zIndex = index;
-      index = index + 1;
       targetElement.style.display = "block";
     };
 
     var hideElement = () => {
       targetElement.style.display = "none";
-      targetElement.style.zIndex = "0";
     };
 
     element.addEventListener("mouseover", showElement);
@@ -42,17 +38,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Siderbar Hoverer - Mobile version
+let index = 10;
 const hoverElements2 = document.querySelectorAll(".hover-element2");
 hoverElements2.forEach((element) => {
   const targetId = element.getAttribute("data-target");
   const targetElement = document.getElementById(targetId);
 
   const showElement = () => {
+    targetElement.style.zIndex = index;
+    index = index + 1;
     targetElement.style.display = "block";
   };
 
   const hideElement = () => {
     targetElement.style.display = "none";
+    targetElement.style.zIndex = "0";
   };
 
   element.addEventListener("click", showElement);
