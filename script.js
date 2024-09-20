@@ -45,7 +45,7 @@ hoverElements2.forEach((element) => {
   const targetElement = document.getElementById(targetId);
 
   const showElement = () => {
-    targetElement.style.zIndex = index;
+    targetElement.style.zIndex = index.toString();
     index = index + 1;
     targetElement.style.display = "block";
   };
