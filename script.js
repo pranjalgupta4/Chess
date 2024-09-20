@@ -18,16 +18,20 @@ window.addEventListener("load", function () {
 // Siderbar Hoverer
 document.addEventListener("DOMContentLoaded", () => {
   const hoverElements = document.querySelectorAll(".hover-element");
+  let index = 10;
   hoverElements.forEach((element) => {
     const targetId = element.getAttribute("data-target");
     const targetElement = document.getElementById(targetId);
 
     var showElement = () => {
+      targetElement.style.zIndex = index;
+      index = index + 1;
       targetElement.style.display = "block";
     };
 
     var hideElement = () => {
       targetElement.style.display = "none";
+      targetElement.style.zIndex = "0";
     };
 
     element.addEventListener("mouseover", showElement);
